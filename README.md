@@ -28,4 +28,4 @@ Shift+click on any disabled event to enable it again.
 Alternatively you can delete or edit COM3D2.HideThisEvent.json in BepinEx\config*
 
 
-Thanks to Guest4168 for helping with that confusing Unity UI code.
+#### Thanks to Guest4168 for helping with that confusing Unity UI code.
