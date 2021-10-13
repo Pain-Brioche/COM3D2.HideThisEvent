@@ -10,7 +10,7 @@ using System.IO;
 namespace COM3D2.HideThisEvent
 {
     [BepInPlugin("COM3D2.HideThisEvent", "Hide This Event", "1.0")]
-    public class Plugin : BaseUnityPlugin
+    public class HideThisEvent : BaseUnityPlugin
     {
         //config
         private static KeyboardShortcut keyboardShortcut = new(KeyCode.LeftShift);
@@ -40,7 +40,7 @@ namespace COM3D2.HideThisEvent
                 disabledScenarioIDList = JsonConvert.DeserializeObject<List<int>>(json);
             }
             // Harmony
-            Harmony.CreateAndPatchAll(typeof(Plugin));
+            Harmony.CreateAndPatchAll(typeof(HideThisEvent));
         }
 
         [HarmonyPostfix]
