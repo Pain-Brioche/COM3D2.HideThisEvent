@@ -15,9 +15,10 @@ Remove COM3D2.HideThisEvent.dll from BepinEx\plugins
 In the event panel, shift+click on any event to disable it.  
 Any disabled Event will appear mirrored and will be hidden the next time you enter the Event menu.
 
+**This will hide the event on ALL saves**
+
 Due to code limitations, you can only disable unselected events.
 ![HideThisEvent](Readme/HideThisEvent_Demo.jpg)
-
 
 ### How to enable Events again.
 In BepinEx ConfigManager (F1) disable "Hide Events"  
